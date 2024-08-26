@@ -1,12 +1,14 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
 
-import EventsNaviagation from "../components/EventsNavigation";
-function EventRootLayout() {
+import EventsNavigation from '../components/EventsNavigation';
+
+function EventsRootLayout() {
   return (
     <>
-      <EventsNaviagation/>
+      <EventsNavigation />
       <Outlet />
     </>
   );
 }
-export default EventRootLayout;
+
+export default EventsRootLayout;
